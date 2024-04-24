@@ -431,6 +431,12 @@ body{
         text-align: start;
     }
 
+    .titulo{
+        width: 55%;
+        place-content: center;
+        margin-bottom: 0;
+    }
+
     .contacto__main{
         display: flex;
         gap: 3rem;
