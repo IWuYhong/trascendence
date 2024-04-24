@@ -26,6 +26,7 @@ body{
 }
 
 .container{
+    
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -80,7 +81,7 @@ body{
 }
 
 .nav__link:hover{
-    border-bottom: 2px solid --purple;
+    border-bottom: 2px solid #b808a0;
 }
 
 .mapa__google.text{
@@ -183,7 +184,11 @@ body{
 }
 
 .titulo{
-    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.titulo2{
     text-align: center;
     font-size: 2.5rem;
 }
@@ -432,9 +437,7 @@ body{
     }
 
     .titulo{
-        width: 55%;
-        place-content: center;
-        margin-bottom: 0;
+        text-align: start;
     }
 
     .contacto__main{
